@@ -1,11 +1,11 @@
-package org.example;
+package org.example.calculator;
 
+import org.example.ConsoleReader;
+import org.example.ConsoleWriter;
 import org.springframework.stereotype.Component;
 
-import java.util.Scanner;
-
 @Component
-public class Divide implements Operation {
+public class Addition implements Operation {
 
     @Override
     public void action() {
@@ -13,7 +13,7 @@ public class Divide implements Operation {
         double numberOne = ConsoleWriter.numberWriter();
         ConsoleReader.reader("Enter number 2");
         double numberTwo = ConsoleWriter.numberWriter();
-        double result = numberOne / numberTwo;
+        double result = numberOne + numberTwo;
         ConsoleReader.reader("Result = " + result);
     }
 }

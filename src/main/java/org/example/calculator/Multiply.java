@@ -1,5 +1,7 @@
-package org.example;
+package org.example.calculator;
 
+import org.example.ConsoleReader;
+import org.example.ConsoleWriter;
 import org.springframework.stereotype.Component;
 
 @Component
