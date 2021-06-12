@@ -1,4 +1,4 @@
-package org.example.calculator;
+package org.example.entity.calculator;
 
 public interface Operation {
     void action();
