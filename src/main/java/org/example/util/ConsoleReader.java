@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ConsoleReader {
 
-    public static void read(String message) {
-        Scanner scanner = new Scanner(System.in);
+    public static void read(Object message) {
+        System.out.println(message);
     }
 }
